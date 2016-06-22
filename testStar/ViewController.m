@@ -18,7 +18,7 @@
     [super viewDidLoad];
     ZCStar *view = [[ZCStar alloc] initWithFrame:CGRectMake(0, 0, 202, 45) numberOfStars:5];//星星个数
     [self.startView addSubview:view];
-    view.scorePercent=0.39;
+    view.scorePercent=0.19;
     
     // Do any additional setup after loading the view, typically from a nib.
 }
