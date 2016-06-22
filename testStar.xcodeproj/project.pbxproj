@@ -15,6 +15,7 @@
 		9333F36D1CFEAA4300601F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9333F36B1CFEAA4300601F7B /* LaunchScreen.storyboard */; };
 		9333F3781CFEAA4300601F7B /* testStarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9333F3771CFEAA4300601F7B /* testStarTests.m */; };
 		9333F3831CFEAA4400601F7B /* testStarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9333F3821CFEAA4400601F7B /* testStarUITests.m */; };
+		9333F3921CFEAA8500601F7B /* ZCStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9333F3911CFEAA8500601F7B /* ZCStar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9333F37E1CFEAA4400601F7B /* testStarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testStarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9333F3821CFEAA4400601F7B /* testStarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testStarUITests.m; sourceTree = "<group>"; };
 		9333F3841CFEAA4400601F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9333F3901CFEAA8500601F7B /* ZCStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCStar.h; sourceTree = "<group>"; };
+		9333F3911CFEAA8500601F7B /* ZCStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCStar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9333F36B1CFEAA4300601F7B /* LaunchScreen.storyboard */,
 				9333F36E1CFEAA4300601F7B /* Info.plist */,
 				9333F35D1CFEAA4300601F7B /* Supporting Files */,
+				9333F3901CFEAA8500601F7B /* ZCStar.h */,
+				9333F3911CFEAA8500601F7B /* ZCStar.m */,
 			);
 			path = testStar;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				9333F3651CFEAA4300601F7B /* ViewController.m in Sources */,
 				9333F3621CFEAA4300601F7B /* AppDelegate.m in Sources */,
+				9333F3921CFEAA8500601F7B /* ZCStar.m in Sources */,
 				9333F35F1CFEAA4300601F7B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				9333F3891CFEAA4400601F7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9333F38A1CFEAA4400601F7B /* Build configuration list for PBXNativeTarget "testStarTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				9333F38C1CFEAA4400601F7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9333F38D1CFEAA4400601F7B /* Build configuration list for PBXNativeTarget "testStarUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				9333F38F1CFEAA4400601F7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
